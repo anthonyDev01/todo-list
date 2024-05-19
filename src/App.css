@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin: 2rem 0 1.4rem;
+    font-size: clamp(6px, 10vw, 28px);
+}
+
+.container form {
+    display: flex;
+    flex-direction: row;
+}
+
+.container form button {
+    width: 10vw;
+    margin-left: 0.625rem;
+    font-weight: 700;
+
+    background-color: #ea4c89;
+    color: #fff;
+
+    border-radius: 5px;
+    border: none;
+
+    font-size: clamp(8px, 1vw, 16px);
+}
+
+.container input {
+    width: 40vw;
+    padding: 1.5rem;
+
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 16px;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.btnList {
+    margin-right: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container img {
+    width: 1.87rem;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.card {
+    height: 100%;
+    width: 51vw;
+
+    background-color: #735bf2;
+    color: #fff;
+
+    border-radius: 10px;
+    margin-top: 1.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+    word-break: break-all;
+}
+
+.card div {
+    display: flex;
+}
